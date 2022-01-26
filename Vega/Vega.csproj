@@ -16,6 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.19" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
@@ -39,6 +41,10 @@
     <Compile Remove="Migrations\20220125075833_InitialModel2.Designer.cs" />
     <Compile Remove="Migrations\20220125142044_InitialModel.cs" />
     <Compile Remove="Migrations\20220125142044_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20220126150010_ApiResources.cs" />
+    <Compile Remove="Migrations\20220126150010_ApiResources.Designer.cs" />
+    <Compile Remove="Migrations\20220126195736_SeedDbFeatures.cs" />
+    <Compile Remove="Migrations\20220126195736_SeedDbFeatures.Designer.cs" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
