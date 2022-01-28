@@ -48,6 +48,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\services\feature.service.spec.ts" />
+    <None Remove="ClientApp\src\app\services\feature.service.ts" />
+    <None Remove="ClientApp\src\app\services\make.service.spec.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="ClientApp\src\app\services\" />
   </ItemGroup>
 
